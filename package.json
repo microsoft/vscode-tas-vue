@@ -1,0 +1,19 @@
+{
+  "name": "vue-on-azure",
+  "version": "1.0.0",
+  "description": "A sample application for Azure using the Vue front-end framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microsoft/vscode-tas-vue.git"
+  },
+  "author": "Brian Terlson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/microsoft/vscode-tas-vue/issues"
+  },
+  "homepage": "https://github.com/microsoft/vscode-tas-vue#readme"
+}
