@@ -1,19 +1,22 @@
 {
-  "name": "vue-on-azure",
-  "version": "1.0.0",
-  "description": "A sample application for Azure using the Vue front-end framework.",
-  "main": "index.js",
+  "name": "vue",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/microsoft/vscode-tas-vue.git"
+  "dependencies": {
+    "querystring": "^0.2.0",
+    "vue": "^2.5.16"
   },
-  "author": "Brian Terlson",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/microsoft/vscode-tas-vue/issues"
+  "devDependencies": {
+    "@vue/cli-service": "^3.0.0-beta.15",
+    "vue-template-compiler": "^2.5.16"
   },
-  "homepage": "https://github.com/microsoft/vscode-tas-vue#readme"
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
 }
