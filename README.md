@@ -6,13 +6,7 @@ Clone directly from GitHub or from your Try Azure App Service instance.
 
 ## Running the Application Locally
 
-After cloning, first make sure you have the Vue CLI installed:
-
-```
-> npm install -g @vue/cli
-```
-
-Next, install the necessary npm dependencies and use the `serve` npm command to start a local development server.
+Install the necessary npm dependencies and use the `serve` npm command to start a local development server.
 
 ```
 > npm install
